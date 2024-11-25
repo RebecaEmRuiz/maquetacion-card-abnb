@@ -33,4 +33,37 @@ h1 {
     display: flex;
     list-style-type: none;
     gap: 10px;
+    justify-content: center;
+}
+
+.card__info-list {
+    display: flex;
+    list-style-type: none;
+    gap: 10px;  
+    justify-content: space-evenly;
+}
+
+.card__info-container {
+    background-color: #eee;
+    padding: 0.5rem;
+    margin-top: 10px;
+}
+
+.card__title-price-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin: 10px 0;
+    padding-left: 10px; 
+    padding-right: 10px;
+}
+
+.card__title-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.card__price-container {
+    text-align: right;
 }
