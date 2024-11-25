@@ -1,0 +1,36 @@
+/**RESETS **/
+
+* { 
+    margin: 0;
+    padding: 8;
+}
+
+/**FIN RESETS **/
+
+body {
+    background-color: #eee;
+    padding: 0px 10px 5px 20px;
+}
+
+h1 {
+    font-size: 1rem;
+}
+
+.card__container {
+    max-width: 320px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.card__img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card__properties-list {
+    padding: 5px;
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+}
